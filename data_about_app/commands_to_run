@@ -1,0 +1,21 @@
+COMMANDS TO RUN OVERSIGHT
+
+
+
+1.	TERMINAL ONE 
+
+cd c:\Users\Pcc\Desktop\OVERSIGHT\apps\api
+.\venv\Scripts\uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+
+2.	TERMINAL TWO
+
+
+cd c:\Users\Pcc\Desktop\OVERSIGHT\apps\dashboard
+npm run dev
+
+3. CCTV simulation
+
+cd apps/cctv_worker
+
+python camera_simulator.py YOUR_INSTITUTION_ID
+
